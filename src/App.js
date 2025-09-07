@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Plus, Check, Clock, User, Calendar, Filter, Search, Edit2, Trash2, MessageSquare, Bell, Users, LogOut, CheckCircle, AlertCircle, Eye } from 'lucide-react';
+import { Plus,   User, Calendar,  Search,  Trash2, MessageSquare, Bell, Users, LogOut, CheckCircle, AlertCircle } from 'lucide-react';
 
 const HotelTaskManager = () => {
   const [currentUser, setCurrentUser] = useState(null);
